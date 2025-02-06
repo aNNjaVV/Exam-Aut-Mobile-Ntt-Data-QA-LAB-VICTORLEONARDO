@@ -2,7 +2,7 @@
 Feature: Examen - Validar funcionalidad del carrito de compras
 
   @Principal
-  Scenario Outline: Agregar productos al carrito y validar actualización del carrito de compras
+  Scenario Outline: Agregar productos al carrito y validar actualización
     Given estoy en la aplicación de SauceLabs
     And valido que carguen correctamente los productos en la galería
     When agrego <UNIDADES> del siguiente producto "<PRODUCTO>"
